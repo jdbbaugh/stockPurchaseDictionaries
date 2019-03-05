@@ -1,0 +1,11 @@
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/bin/Debug/netcoreapp2.2/stockPurchaseDictionaries.deps.json
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/bin/Debug/netcoreapp2.2/stockPurchaseDictionaries.runtimeconfig.json
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/bin/Debug/netcoreapp2.2/stockPurchaseDictionaries.runtimeconfig.dev.json
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/bin/Debug/netcoreapp2.2/stockPurchaseDictionaries.dll
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/bin/Debug/netcoreapp2.2/stockPurchaseDictionaries.pdb
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.csprojAssemblyReference.cache
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.csproj.CoreCompileInputs.cache
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.AssemblyInfoInputs.cache
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.AssemblyInfo.cs
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.dll
+/Users/josephbaugh/workspace/NSS/backEnd/1book/5chap/stockPurchaseDictionaries/obj/Debug/netcoreapp2.2/stockPurchaseDictionaries.pdb
