@@ -14,6 +14,7 @@ namespace stockPurchaseDictionaries
         {
             Dictionary<string, string> stocks = new Dictionary<string, string>();
             stocks.Add("GM", "General Motors");
+            stocks.Add("GE", "General Electric");
             stocks["CAT"] = "Caterpillar";
             stocks.Add("ORCL", "Oracle");
             stocks["MSFT"] = "Microsoft";
@@ -21,7 +22,7 @@ namespace stockPurchaseDictionaries
             stocks["TSLA"] = "Tesla";
 
             foreach(KeyValuePair<string, string> stock in stocks) {
-                Console.WriteLine(stock.Value);
+                // Console.WriteLine(stock.Value);
             }
 
             Console.WriteLine();
@@ -42,6 +43,7 @@ namespace stockPurchaseDictionaries
             purchases.Add(new Dictionary<string, double>(){ {"MSFT", 324.43} });
             purchases.Add(new Dictionary<string, double>(){ {"MSFT", 427.43} });
             purchases.Add(new Dictionary<string, double>(){ {"GMY", 12.40} });
+            purchases.Add(new Dictionary<string, double>(){ {"GMY", 1.00} });
             purchases.Add(new Dictionary<string, double>(){ {"TSLA", 1322.44} });
             purchases.Add(new Dictionary<string, double>(){ {"TSLA", 13422.90} });
 
@@ -50,16 +52,20 @@ namespace stockPurchaseDictionaries
             foreach(Dictionary<string, double> purchase in purchases) {
                 foreach(KeyValuePair<string, double> kvp in purchase) {
                     // Console.WriteLine($"Key: {kvp.Key} Value: {kvp.Value}");
-                    if (!stockReport.ContainsKey(kvp.Key)) {
-                        stockReport.Add(kvp.Key, kvp.Value);
+                        string stockBrand = stocks[kvp.Key];
+                    if (!stockReport.ContainsKey(stockBrand)) {
+                        stockReport.Add(stockBrand, kvp.Value);
+
                     } else {
-                        stockReport[kvp.Key] = stockReport[kvp.Key] + kvp.Value;
+                        stockReport[stockBrand] += kvp.Value;
                     }
                 }
 
             }
+
+
             foreach(KeyValuePair<string, double> stock in stockReport) {
-                Console.WriteLine(stock);
+                Console.WriteLine($"The position in {stock.Key} is worth {stock.Value}");
             }
         }
     }
